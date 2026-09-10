@@ -3,6 +3,10 @@
 Public distribution repository for Letsync desktop builds and update metadata.
 Application source is maintained separately in a private repository.
 
+Testing, building, and packaging run on the maintainer's device. GitHub hosts
+source, downloads, and update metadata; GitHub Actions is disabled in both
+repositories. Publishing uploads the locally built archive through the GitHub CLI.
+
 ## Channels
 
 | Channel | Branch | Update metadata | Downloads |
